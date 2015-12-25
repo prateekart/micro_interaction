@@ -1,0 +1,106 @@
+div.wrapper{
+    width: 500px;
+    height: 500px;
+    
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+div.circle{
+    background-color: #3ca7ea;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 1px solid #3797d3;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+div.image{
+    background-image: url(service.jpeg);
+    background-size: 430px;
+    background-repeat: no-repeat;
+    background-position: 71% 8%;
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 10;
+}
+
+div.ripple-1{
+    
+    -webkit-animation: ripples 1.5s linear 0s infinite;
+    animation: ripples 1.5s linear 0s infinite;  
+    
+}
+
+div.ripple-2{
+    
+    -webkit-animation: ripples 1.5s linear 0.5s infinite;
+    animation: ripples 1.5s linear 0.5s infinite;  
+    
+}
+
+
+div.ripple-3{
+    
+    -webkit-animation: ripples 1.5s linear 1s infinite;
+    animation: ripples 1.5s linear 1s infinite;  
+    
+}
+
+
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes ripples {
+    0 {-webkit-transform: scale(1,1); opacity:1}
+    100% {-webkit-transform: scale(2,2); opacity:0}
+}
+
+/* Standard syntax */
+@keyframes ripples {
+    0 {transform: scale(1,1); opacity:1}
+    100% {transform: scale(2,2); opacity:0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
